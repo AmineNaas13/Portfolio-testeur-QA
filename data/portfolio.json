@@ -1,0 +1,28 @@
+[
+    {
+        "image": "image1.png",
+        "title": "Booki",
+        "text": " Dans ce projet, j’ai créé la page d’accueil responsive d’une agence de voyage à partir de maquettes Figma en mobile, tablette et desktop.J’ai utilisé uniquement HTML et CSS pour intégrer l’interface.",
+        "link": "https://github.com/AmineNaas13/Booki-OC/tree/master/booki-starter-code-master"
+    },
+    {
+        "image": "image2.png",
+        "title": "Sophie Bluel",
+        "text": "Ce projet m'a initié à la création de site dynamique en Javascript, à la création d'un système de connexion, à manipuler une API, ajouter et supprimer des éléments dynamiquement.",
+        "link": "https://github.com/AmineNaas13/sophie-bluel-OC.git"
+    },
+    {
+        "image": "image3.png",
+        "title": "Kasa",
+        "text": "L'objectif de ce projet était de migrer une application existante vers React.Le projet m’a permis de me maîtriser l’utilisation des hooks, des composants, des props, ainsi que la mise en forme avec CSS.",
+        "link": "https://github.com/AmineNaas13/Kasa-OC.git"
+    },
+    {
+        "image": "image5.png",
+        "title": "Eco Bliss Bath",
+        "text": "L'objectif de ce projet était d'évaluer les recommandations de test, choix des scénarios critiques à automatiser, rédaction de scripts JavaScript (API, smoke tests, fonctionnalités), exécution de la campagne de test et rédaction d’un bilan détaillé des résultats et anomalies détectées.",
+        "link": "https://github.com/AmineNaas13/EcoBliss"
+    }
+
+    
+]

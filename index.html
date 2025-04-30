@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Portfolio Name</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/image4.png" alt="Logo"> </a>
+
+
+            <button class=" navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">A propos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contactez-moi</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                    <h1 class="hero_title">Salut, moi c'est Amine Naas</h1>
+                    <h2 class="hero_desc">Je suis Testeur de logiciel</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4">
+            <h2 class="text-center">A propos</h2>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/person.png" class="imageAboutPage" alt="">
+                </div>
+
+                <div class="col-lg-8">
+                    <p> Bonjour ! Je suis Amine NAAS, testeur de logiciels récemment diplômé, passionné par la qualité
+                        et l'amélioration continue des produits numériques.
+
+                        Après avoir récemment terminé ma formation en test de logiciels, je suis prêt à mettre en
+                        pratique mes compétences dans un environnement professionnel. Tout au long de ma formation, j'ai
+                        acquis une solide expertise dans les tests manuels et automatisés, ainsi que dans l'utilisation
+                        d'outils tels que Cypress, Postman et Jira. Je suis également formé aux tests
+                        d'accessibilité et à la gestion des bugs.<br>
+
+                        <br>
+
+                        En parallèle, j’ai également été formé au développement web, ce qui me permet de mieux
+                        comprendre l’environnement technique des projets sur lesquels je travaille. Je maîtrise les
+                        langages HTML, CSS, JavaScript, ainsi que le framework React.
+
+                    </p>
+                    <div class="row mt-3">
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Nom: Amine NAAS</li>
+                                <li>Age: 40 ans</li>
+                                <li>Tél: 06 29 68 22 36</li>
+
+                            </ul>
+                        </div>
+                        <!-- <div class="col-md-6">
+                            <ul>
+                                <li>Nom: Prénom nom</li>
+                                <li>Age: 42</li>
+                                <li>xxx: xxx xxx</li>
+                            </ul>
+                        </div> -->
+                    </div>
+                    <!-- <div class="row mt-3">
+                        <p>
+                        </p>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills section-->
+    <section id="skills">
+        <div class="container">
+            <h2 class="text-center">Mes compétences</h2>
+
+        </div>
+    </section>
+
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h2 class="text-center">Mes projets</h2>
+        </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h2 class="text-center">Contactez-moi</h2>
+            <div class="row">
+                <div class="col-lg-4 mt-4 contactColumn">
+                    <i class="fa-solid fa-phone fa-4x"></i>
+                    <h3>Téléphone</h3>
+                    <p>06-29-68-22-36</p>
+                </div>
+                <div class="col-lg-4 mt-4 contactColumn">
+                    <i class="fa-regular fa-envelope fa-4x"></i>
+                    <h3>Adresse email</h3>
+                    <p>aminenaas@gmail.com</p>
+                </div>
+                <div class="col-lg-4 mt-4 contactColumn">
+
+                    <i class="fa-brands fa-linkedin-in fa-4x"></i>
+                    <h3>LinkedIn</h3>
+                    <p>Amine NAAS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
